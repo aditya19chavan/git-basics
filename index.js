@@ -5,5 +5,8 @@ const dob = '01/01/2024';
 
 //to check the status of age
 const isAdult = () => {
-    return age >= 19;
+    if (age >= 18)
+        return true;
+    else 
+        return false;
 }
